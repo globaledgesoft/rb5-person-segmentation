@@ -9,7 +9,7 @@ if __name__ == "__main__":
     interpreter = tflite.Interpreter(model_path=args.model)
     input_det, output_det = obj.allocate_tensor(interpreter)
 
-    vid = cv2.VideoCapture(args.cam_id)
+    vid = cv2.VideoCapture(qtiqmmfsrc name=qmmf ! video/x-raw, format=NV12, width=640, height=480, framerate=30/1 ! videoconvert ! video/x-raw,format=BGR ! appsink drop=1", cv2.CAP_GSTREAMER)
 
     while(vid.isOpened()):
         ret, frame = vid.read()
